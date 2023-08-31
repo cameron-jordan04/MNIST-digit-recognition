@@ -58,3 +58,8 @@ $` W^{(2)} \ := \ W^{(2)} \ - \ \alpha \ dW^{(2)}`$
 $` b^{(2)} \ := \ b^{(2)} \ - \ \alpha \ db^{(2)}`$
 
 $` where \ \alpha \ is \ the \ learning \ rate \ of \ the \ neural \ network`$
+
+Please Note:
+  This was completed as an exercise in creating neural network models, and much of the code, while fairly generic, was sourced from the linked source below 
+
+[Samson Zhang](https://www.youtube.com/watch?v=w8yWXqWQYmU&list=WL&index=24)
