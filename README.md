@@ -2,9 +2,13 @@
 
 Each training image is 28 x 28 pixels (where each pixel has a value between 0 and 255) = 784 total pixels
 
-Each training images can be represented as a row (where each row is 784 columns long) in a matrix: $$ X \ = \ \begin{bmatrix}x^{(1)}\\ x^{(2)}\\ :\\x^{(n)}\end{bmatrix}$$
-We can take the transpose of this matrix, s.t. each column now represents an example: $$X^T \ = \ \begin{bmatrix}x^{(1)} & x^{(2)} & ... & x^{(n)}\end{bmatrix}$$
-The neural networks of digit classification will have one hidden layers: the input $0th$ layer will have 784 nodes (each pixel maps to a node), the hidden $1st$ layer will have 10 nodes and the output $2nd$ layer will have 10 nodes.
+Each training images can be represented as a row (where each row is 784 columns long) in a matrix: 
+$'X \ = \ \begin{bmatrix}x^{(1)}\\ x^{(2)}\\ :\\x^{(n)}\end{bmatrix}'$
+
+We can take the transpose of this matrix, s.t. each column now represents an example: 
+$'X^T \ = \ \begin{bmatrix}x^{(1)} & x^{(2)} & ... & x^{(n)}\end{bmatrix}'$
+
+The neural networks of digit classification will have one hidden layers: The input $0th$ layer will have 784 nodes (each pixel maps to a node), the hidden $1st$ layer will have 10 nodes and the output $2nd$ layer will have 10 nodes.
 
 #### Forward propagation: 
 $$Input \ Layer: \ A^{(0)} \ = \ \overrightarrow{x}$$ $$ Unactivated \ First \ Layer: \ Z^{(1)} \ = \ W^{(1)} \cdot A^{(0)} \ + \ b^{(1)}$$ $$ where \ W \ is \ a \ weight \ matrix \ and \ b \ is \ a \ bias \ term$$
