@@ -3,7 +3,7 @@
 Each training image is 28 x 28 pixels (where each pixel has a value between 0 and 255) = 784 total pixels
 
 Each training images can be represented as a row (where each row is 784 columns long) in a matrix: 
-$'X \ = \ \begin{bmatrix}x^{(1)}\\ x^{(2)}\\ :\\x^{(n)}\end{bmatrix}'$
+$`X \ = \ \begin{bmatrix}x^{(1)}\\ x^{(2)}\\ :\\x^{(n)}\end{bmatrix}`$
 
 We can take the transpose of this matrix, s.t. each column now represents an example: 
 $'X^T \ = \ \begin{bmatrix}x^{(1)} & x^{(2)} & ... & x^{(n)}\end{bmatrix}'$
